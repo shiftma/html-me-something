@@ -1,0 +1,47 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+};
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+#content>li {
+  margin: 15px 10px;
+  padding-right: 20px;
+}
+
+#content li a {
+    text-decoration: none;
+    /*color: #FAF99F;*/
+}
+
+.hero {
+  font-size: 2rem;
+  text-align: center;
+  /*background-color: #78D8D0;*/
+}
+
+.navbar {
+  /*background-color: #D65F5F;*/
+  height: auto;
+  text-align: right;
+}
+
+.content.col-1 {
+  /*background-color: #FAF99F;*/
+}
+
+.food.sidebar {
+  /*background-color: #A1F6B6;*/
+  float: right;
+}
+
+footer {
+  background-color: #D65F5F;
+}
