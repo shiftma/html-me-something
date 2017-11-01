@@ -1,0 +1,22 @@
+nav {
+  background-color: $orange;
+  text-align: left;
+  font-family: $body-font;
+  border-bottom: 5px solid darken($orange, 20%);
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline;
+    padding: 2px;
+  }
+}
+
+a{
+  display: inline-block;
+  padding: 6px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: $white;
+  font-size: 1.5em;
+}

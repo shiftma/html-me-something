@@ -16,4 +16,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #00067a;
   font-family: "Titillium Web", sans-serif; }
 
+nav {
+  background-color: #cb6f10;
+  text-align: left;
+  font-family: "labo 27px", serif;
+  border-bottom: 5px solid #6c3b09; }
+  nav ul {
+    list-style-type: none; }
+  nav li {
+    display: inline;
+    padding: 2px; }
+
+a {
+  display: inline-block;
+  padding: 6px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.5em; }
+
 /*# sourceMappingURL=style.css.map */
