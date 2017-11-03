@@ -1,22 +1,25 @@
 nav {
-  background-color: $orange;
-  text-align: left;
+  background-color: $dark-blue;
+  text-align: right;
   font-family: $body-font;
-  border-bottom: 5px solid darken($orange, 20%);
+  border-bottom: 3px solid lighten($dark-blue, 20%);
+  margin-top: -16px;
   ul {
     list-style-type: none;
+    padding-top: 12px;
   }
   li {
     display: inline;
-    padding: 2px;
+    padding: 5px;
   }
 }
 
 a{
   display: inline-block;
-  padding: 6px 20px;
+  padding: 1px 20px;
   text-decoration: none;
   font-weight: bold;
   color: $white;
-  font-size: 1.5em;
+  font-size: 1.1em;
+  font-family: $header-font;
 }

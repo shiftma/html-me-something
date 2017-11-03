@@ -13,26 +13,78 @@ body {
   font-family: "labo 27px", serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #00067a;
+  color: #064b87;
   font-family: "Titillium Web", sans-serif; }
 
 nav {
-  background-color: #cb6f10;
-  text-align: left;
+  background-color: #064b87;
+  text-align: right;
   font-family: "labo 27px", serif;
-  border-bottom: 5px solid #6c3b09; }
+  border-bottom: 3px solid #0a81e9;
+  margin-top: -16px; }
   nav ul {
-    list-style-type: none; }
+    list-style-type: none;
+    padding-top: 12px; }
   nav li {
     display: inline;
-    padding: 2px; }
+    padding: 5px; }
 
 a {
   display: inline-block;
-  padding: 6px 20px;
+  padding: 1px 20px;
   text-decoration: none;
   font-weight: bold;
   color: #ffffff;
-  font-size: 1.5em; }
+  font-size: 1.1em;
+  font-family: "Titillium Web", sans-serif; }
+
+.hero {
+  height: 600px;
+  width: auto;
+  background: url("../images/hero.jpg") no-repeat center top;
+  background-size: cover; }
+
+.flexbox {
+  display: flex;
+  flex-flow: row; }
+  .flexbox .col-1 {
+    flex: 3 1 75%; }
+  .flexbox .col-2 {
+    background-color: #ffffff;
+    font-size: 1em; }
+
+.hero-text {
+  width: 50%;
+  padding-top: 20px;
+  text-align: center; }
+  .hero-text h1, .hero-text h2 {
+    color: white;
+    font-size: 2em; }
+  .hero-text p {
+    color: white;
+    font-size: 1em; }
+
+.content {
+  text-decoration: none; }
+  .content h2 {
+    font-size: 3em;
+    margin: 5px; }
+  .content .item {
+    margin-bottom: 60px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    display: block; }
+  .content .head {
+    font-size: 3em; }
+  .content p {
+    font-size: 2.3em; }
+  .content img {
+    float: left;
+    margin: 0 20px;
+    height: 120px;
+    width: 120px; }
+  .content a {
+    text-decoration: none;
+    color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
