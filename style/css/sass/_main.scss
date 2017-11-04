@@ -1,7 +1,7 @@
 .hero {
-  height: 600px;
+  height: 500px;
   width: auto;
-  background: url("../images/hero.jpg") no-repeat center top;
+  background: url("../images/hero.jpg") no-repeat fixed top;
   background-size: cover;
 }
 
@@ -13,47 +13,55 @@
   }
   .col-2{
     background-color: $white;
+    margin-top: 30px;
+    width: 280px;
+    h2{
+      font-size: 1.2em;
+      text-align: center;
+    }
     font-size: 1em;
+    .tech{
+      padding-right: 20px;
+    }
   }
 }
 
 .hero-text {
   width: 50%;
-  padding-top: 20px;
+  padding: 60px 0px 0px 15px;
   text-align: center;
   h1,h2 {
     color: white;
     font-size: 2em;
+
   }
   p{
+    padding-top: 15px;
     color: white;
-    font-size: 1em;
+    font-size: 1.1em;
   }
 }
 
 .content{
   text-decoration: none;
+  li{
+    padding: 10px 0 0 10px;
+  }
   h2{
-    font-size: 3em;
-    margin: 5px;
+    font-size: 2.5em;
+    margin: 10px 0 0 35px;
   }
   .item{
     margin-bottom: 60px;
     border-top: 1px solid black;
-    padding-top: 10px;
     display: block;
   }
   .head{
-    font-size: 3em;
+    font-size: 1.5em;
   }
   p{
-    font-size: 2.3em;
-  }
-  img{
-    float: left;
-    margin: 0 20px;
-    height: 120px;
-    width: 120px;
+    font-size: 1.3em;
+    padding-top: 5px;
   }
   a{
     text-decoration: none;

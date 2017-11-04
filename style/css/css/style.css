@@ -27,7 +27,7 @@ nav {
     padding: 12px 20px 0px 0px; }
   nav li {
     display: inline;
-    padding: 5px; }
+    padding: 1px; }
 
 a {
   display: inline-block;
@@ -39,9 +39,9 @@ a {
   font-family: "Titillium Web", sans-serif; }
 
 .hero {
-  height: 600px;
+  height: 500px;
   width: auto;
-  background: url("../images/hero.jpg") no-repeat center top;
+  background: url("../images/hero.jpg") no-repeat fixed top;
   background-size: cover; }
 
 .flexbox {
@@ -51,38 +51,43 @@ a {
     flex: 3 1 75%; }
   .flexbox .col-2 {
     background-color: #ffffff;
+    margin-top: 30px;
+    width: 280px;
     font-size: 1em; }
+    .flexbox .col-2 h2 {
+      font-size: 1.2em;
+      text-align: center; }
+    .flexbox .col-2 .tech {
+      padding-right: 20px; }
 
 .hero-text {
   width: 50%;
-  padding-top: 20px;
+  padding: 60px 0px 0px 15px;
   text-align: center; }
   .hero-text h1, .hero-text h2 {
     color: white;
     font-size: 2em; }
   .hero-text p {
+    padding-top: 15px;
     color: white;
-    font-size: 1em; }
+    font-size: 1.1em; }
 
 .content {
   text-decoration: none; }
+  .content li {
+    padding: 10px 0 0 10px; }
   .content h2 {
-    font-size: 3em;
-    margin: 5px; }
+    font-size: 2.5em;
+    margin: 10px 0 0 35px; }
   .content .item {
     margin-bottom: 60px;
     border-top: 1px solid black;
-    padding-top: 10px;
     display: block; }
   .content .head {
-    font-size: 3em; }
+    font-size: 1.5em; }
   .content p {
-    font-size: 2.3em; }
-  .content img {
-    float: left;
-    margin: 0 20px;
-    height: 120px;
-    width: 120px; }
+    font-size: 1.3em;
+    padding-top: 5px; }
   .content a {
     text-decoration: none;
     color: #ffffff; }
