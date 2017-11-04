@@ -24,7 +24,7 @@ nav {
   margin-top: -16px; }
   nav ul {
     list-style-type: none;
-    padding-top: 12px; }
+    padding: 12px 20px 0px 0px; }
   nav li {
     display: inline;
     padding: 5px; }
@@ -86,5 +86,28 @@ a {
   .content a {
     text-decoration: none;
     color: #ffffff; }
+
+footer {
+  background-color: #064b87;
+  padding: 1px;
+  border-top: 5px solid #0866b8;
+  text-align: center; }
+  footer ul {
+    margin: 10px;
+    padding-left: 5px; }
+  footer li {
+    display: inline;
+    padding: 2px; }
+  footer a {
+    display: inline-block;
+    padding: 3px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ffffff; }
+  footer p {
+    color: #ffffff;
+    padding-top: 6px;
+    font-family: "Titillium Web", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

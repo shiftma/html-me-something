@@ -1,0 +1,31 @@
+footer {
+  background-color: $dark-blue;
+  padding: 1px;
+  border-top: 5px solid lighten($dark-blue, 10%);
+  text-align: center;
+
+  ul {
+        margin: 10px;
+        padding-left: 5px;
+      }
+
+  li {
+      display: inline;
+      padding: 2px;
+    }
+
+  a {
+    display: inline-block;
+    padding: 3px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: $white;
+  }
+
+  p {
+    color: $white;
+    padding-top: 6px;
+    font-family: $header-font;
+  }
+}
