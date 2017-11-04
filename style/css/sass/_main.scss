@@ -52,9 +52,13 @@
     margin: 10px 0 0 35px;
   }
   .item{
-    margin-bottom: 60px;
-    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 0 50px 0;
     display: block;
+  }
+  #last{
+    padding-bottom: 50px;
+    border-bottom: none;
   }
   .head{
     font-size: 1.5em;
