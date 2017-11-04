@@ -87,7 +87,8 @@ a {
     font-size: 1.5em; }
   .content p {
     font-size: 1.3em;
-    padding-top: 5px; }
+    padding-top: 5px;
+    font-family: "labo 27px", serif; }
   .content a {
     text-decoration: none;
     color: #ffffff; }
