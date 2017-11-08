@@ -43,6 +43,17 @@ a {
   width: auto;
   background: url("../images/hero.jpg") no-repeat fixed top;
   background-size: cover; }
+  .hero .article .hero-text {
+    width: 50%;
+    padding: 60px 0px 0px 15px;
+    text-align: center; }
+    .hero .article .hero-text h1, .hero .article .hero-text h2 {
+      color: white;
+      font-size: 2em; }
+    .hero .article .hero-text p {
+      padding-top: 15px;
+      color: white;
+      font-size: 1.1em; }
 
 .flexbox {
   display: flex;
@@ -58,19 +69,9 @@ a {
       font-size: 1.2em;
       text-align: center; }
     .flexbox .col-2 .tech {
-      padding-right: 20px; }
-
-.hero-text {
-  width: 50%;
-  padding: 60px 0px 0px 15px;
-  text-align: center; }
-  .hero-text h1, .hero-text h2 {
-    color: white;
-    font-size: 2em; }
-  .hero-text p {
-    padding-top: 15px;
-    color: white;
-    font-size: 1.1em; }
+      padding-right: 10px; }
+    .flexbox .col-2 img {
+      padding-right: 10px; }
 
 .content {
   text-decoration: none; }
